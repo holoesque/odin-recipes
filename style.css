@@ -1,0 +1,40 @@
+img {
+  display: block;
+  height: auto;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  color: black;
+  background-color: white;
+}
+
+.ingredient-list {
+  color: blue;
+  background-color: lightblue;
+}
+
+.directions {
+  color: black;
+  background-color: lightcoral;
+}
+
+.recipe-title,
+.description {
+  text-align: center;
+}
+
+.recipe-title {
+  font-size: 70px;
+  color: gold;
+  background-color: black;
+}
+
+.description {
+  font-size: 25px;
+  font-weight: 400;
+  color: blueviolet;
+  background-color: lightpink;
+} 
