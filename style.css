@@ -1,40 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: import;
+}
+
+a:link {
+  color: #aff4e6;
+}
+
+a:visited {
+  color: #e7aff4;
+}
+
 img {
   display: block;
   height: auto;
   width: 25%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  border: 1em dotted #e9e9e9;
 }
 
-.menu {
-  color: black;
-  background-color: white;
+body {
+  background-color: #373737;
 }
 
-.ingredient-list {
-  color: blue;
-  background-color: lightblue;
+h2 {
+  margin-left: 0.28em;
 }
 
-.directions {
-  color: black;
-  background-color: lightcoral;
+h3 {
+  font-size: 1.24em;
 }
 
-.recipe-title,
+.main {
+  margin: auto;
+  padding: 0.25em;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #e9e9e9;
+
+  margin: 0.5em;
+  border: 0.1em solid #ffffff;
+}
+
+.intro {
+  font-size: 1.35em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0.5em;
+}
+
+.links {
+  font-size: 1.25em;
+  color: #ffffff;
+
+  margin: 0.5em;
+}
+
+.image {
+  margin: 0.5em;
+}
+
 .description {
   text-align: center;
+  color: #e9e9e9;
+
+  margin: 0.5em;
+  border: 0.1em solid #ffffff;
 }
 
-.recipe-title {
-  font-size: 70px;
-  color: gold;
-  background-color: black;
+.instructions {
+  color: #e9e9e9;
+  margin: 0.5em;
 }
 
-.description {
-  font-size: 25px;
-  font-weight: 400;
-  color: blueviolet;
-  background-color: lightpink;
-} 
+#recipe-title {
+  color: #dbdf90;
+}
+
+#ingredients {
+  color: #c390df;
+}
+
+#directions {
+  color: #df9090
+}
